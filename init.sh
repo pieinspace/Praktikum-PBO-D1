@@ -1,10 +1,10 @@
 #!/bin/bash
 arr=("24060123140160" "24060123130055" "24060123140187" "24060123140202" "24060123140137" "24060122140181" "24060123140124" "24060123130105" "24060122140161" "24060123140140" "24060123140163" "24060123130075" "24060123140120" "24060123140195" "24060123140180" "24060123130062" "24060123120038" "24060123130076" "24060123120005")
-echo "Kumpulin sesuai folder NIM yaaaaaaaaa" > "readme.md"
+echo "# **Kumpulin sesuai folder NIM yaaaaaaaaa**" > "readme.md"
 for i in ${arr[@]}; do
 	mkdir -p $i
 	for x in {1..12}; do
 		mkdir -p "$i/Pertemuan $x"
-		echo "Jangan salah folder -__-" > "$i/Pertemuan $x/readme.md"
+		echo "# **Jangan salah folder -__-**" > "$i/Pertemuan $x/readme.md"
 	done
 done

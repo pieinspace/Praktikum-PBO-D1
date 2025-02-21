@@ -3,5 +3,8 @@ arr=("24060123140160" "24060123130055" "24060123140187" "24060123140202" "240601
 echo "Kumpulin sesuai folder NIM yaaaaaaaaa" > "readme.md"
 for i in ${arr[@]}; do
 	mkdir -p $i
-	echo "Jangan salah folder -__-" > "$i/readme.md"
+	for x in {1..12}; do
+		mkdir -p "$i/Pertemuan $x"
+		echo "Jangan salah folder -__-" > "$i/Pertemuan $x/readme.md"
+	done
 done

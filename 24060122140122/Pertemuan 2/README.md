@@ -1,1 +1,1 @@
-# Pengumpulan Tugas Praktikkum PBO Pertemuan 1 (Objek Orentiation)
+# Pengumpulan Tugas Praktikkum PBO Pertemuan 2 (Enkapsulasi)

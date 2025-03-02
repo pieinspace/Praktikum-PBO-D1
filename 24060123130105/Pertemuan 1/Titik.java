@@ -1,5 +1,3 @@
-package week_1;
-
 
 /* Nama File    : Titik.java
  * Deskripsi    : Berisi atribut dan method dalam class Titik
